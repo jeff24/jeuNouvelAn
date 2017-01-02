@@ -1,0 +1,54 @@
+<html>
+<head>
+	<link href="http://netdna.bootstrapcdn.com/twitter-bootstrap/2.3.2/css/bootstrap-combined.no-icons.min.css" rel="stylesheet">
+	<link href="http://netdna.bootstrapcdn.com/font-awesome/3.2.1/css/font-awesome.css" rel="stylesheet">
+    <link href="bootstrap/css/bootstrap.css" rel="stylesheet" type="text/css" media="screen,projection"/>
+    <link href="css/style.css" rel="stylesheet" type="text/css" media="screen,print"/>
+    <link href="css/score.css" rel="stylesheet" type="text/css" media="screen,print"/>
+
+    <script src="js/jquery-3.1.1.min.js" type="text/javascript"></script>
+    <script src="bootstrap/js/bootstrap.js" type="text/javascript"></script>
+	<script src="js/score.js" type="text/javascript"></script>
+</head>
+<body class="score red lighten-3">
+<div class="row text-center bouton-container">
+    <div class="col-md-6">
+        <a class="btn btn-default" href="./index.html" title="Revenir à la page des thèmes">Revenir aux thèmes</a>
+    </div>
+    <div class="col-md-6">
+        <a class="btn btn-default" href="./lettres.html" title="Accéder à la page pour jouer aux lettres">Jouer aux lettres</a>
+    </div>
+</div>
+<div class="img-cotillon">
+    <img src="img/cotillon.png">
+</div>
+<div class="container">
+    <div class="row">
+        <div class="col-md-6">
+            <div class="container-nom-equipe">
+                <span class="nom-equipe red lighten-2">Nom_Equipe_1</span>
+            </div>
+            <div class="score-button">
+                <input type="text" class="score-equipe red lighten-1" id="score-equipe-1" value="0"/>
+                <div>
+                    <a class="btn btn-default augmenter-score" equipe="1">+</a>
+                    <a class="btn btn-default diminuer-score" equipe="1">-</a>
+                </div>
+            </div>
+        </div>
+        <div class="col-md-6">
+            <div class="container-nom-equipe">
+                <span class="nom-equipe red lighten-2">Nom_Equipe_2</span>
+            </div>
+            <div class="score-button">
+                <input type="text" class="score-equipe red lighten-1" id="score-equipe-2" value="0"/>
+                <div>
+                    <a class="btn btn-default augmenter-score" equipe="2">+</a>
+                    <a class="btn btn-default diminuer-score" equipe="2">-</a>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<img class="img-chat" src="img/chat.png">
+</body>	

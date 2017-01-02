@@ -1,0 +1,35 @@
+/******************************************/
+/*                  LETTRES               */
+/******************************************/
+
+input[type=text].input-lettres, input[type=text].input-timer, input[type=text].input-lettres-reponse {
+    font-size: 45px;
+    height: 70px;
+    text-align: center;
+    border: none;
+    border-radius: 5px;
+    color: #ffbf00;
+    width: 700px;
+}
+
+input[type=text].input-timer {
+    width: 100px;
+}
+
+input[type=text].input-lettres-reponse {
+    display: none;
+}
+
+.lancer-timer, .reset-timer {
+    width: 100px;
+    height: 50px;
+    border-radius: 5px;
+    font-size: 35px;
+    line-height: 40px;
+}
+
+.lettres-container {
+    width: 800px;
+    margin-left: auto;
+    margin-right: auto;
+}
